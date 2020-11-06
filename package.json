@@ -1,28 +1,28 @@
 {
-  "name": "budget-app",
+  "name": "pwa-budget-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   # Project Title : PWA-Budget-Tracker ## Project Description: undefined ## Table of Contents * [Description](#description) * [Installation](#installation) * [Usage](#usage) * [Contributing](#contributing) * [Test](#test) * [Questions](#questions) * [License](#license) * [Author](#Author) * [Badges](#badges) ## Installation To install dependencies, run the following: ` Go to the link to the deployed Heroku page. ` ## Usage Enter any deposits and withdrawals that you wish! ## Contributors Add any changes/upgrades you would like. Update the README with changes made, new technologies used, etc. ## Test To run tests, run the following: `",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "lite-server": "lite-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
-  },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "lite-server": "^2.5.3",
-    "mongoose": "^5.10.11",
+    "lite-server": "^2.5.4",
+    "mongoose": "^5.10.12",
     "morgan": "^1.10.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roxonus/PWA-Budget-Tracker.git"
+  },
+  "author": "Douglas Mitchell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roxonus/PWA-Budget-Tracker/issues"
+  },
+  "homepage": "https://github.com/roxonus/PWA-Budget-Tracker#readme"
 }
